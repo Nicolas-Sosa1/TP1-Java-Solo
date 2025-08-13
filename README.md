@@ -15,12 +15,15 @@ SE CREARÁN DENTRO DE PAQUETE LLAMADO EJERCICIO1.
  
 Aplicar el concepto de encapsulación dentro de la clase Persona y el 
 método toString().
+
 2. Crear una clase Empleado que herede de la clase Persona y que 
 contenga los siguientes atributos
  int legajo;
  String puesto;
+
 Aplicar el concepto de encapsulación dentro de la clase Empleado y el 
 método toString().
+
 1.El legajo del Empleado debe ser generado automáticamente a partir de 
 la clase, el primer legajo será el número 1000 e irá incrementando en 1
 por cada nuevo empleado agregado. El legajo del empleado deberá ser
@@ -33,6 +36,7 @@ constante.
 nombre: “sin nombre” y en la variable edad: “99”.
 ✓ El segundo constructor recibirá los atributos (dni, nombre,
 apellido, fecha de nacimiento, genero, dirección, teléfono, email)
+
 3. La clase Empleado tendrá dos constructores.
 ✓ El primer constructor será vacío y llamará al constructor vacio de 
 Persona.
@@ -40,9 +44,11 @@ Persona.
 Empleado (dni, nombre, apellido, fecha de nacimiento, genero,
 dirección, teléfono, email, puesto). No recibe el legajo ya que éste 
 se genera automáticamente.
+
 4. Crear un método estático en la clase Empleado que devuelva el próximo
 legajo a ser generado: “int devuelveProximoLegajo()”. Por ejemplo, si el
 último Legajo fue el número 1444, el método devolverá el número 1445.
+
 5. Crear una clase llamada principal y dentro de ésta crear el main:
 En el main se deberán crear 5 empleados (Con toda su información de 
 persona y empleado) y mostrar su información correspondiente utilizando 
